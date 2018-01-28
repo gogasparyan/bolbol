@@ -14,24 +14,32 @@ ul > li, ol > li {
 }
 
 body {
-/*    background-image: url(../img/backgrounds/flowers-1061250_1920.jpg);*/
     width: 100%;
 }
 
-
 body div.background {
+    text-align: center;
+    margin: 0 auto;
     width: 200px;
     height: 200px;
     background-color: green;
 }
 
-body span.background img {
-    display: block;
+body div.koko {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+/*    position: absolute;*/
+    top: 25%;
+    left: 25%;
     animation: animateBackground 10s ease-in infinite;
 }
 
 @keyframes animateBackground {
-
+    0%   {transform: scale(1)}
+    50%  {transform: scale(1.3)}
+    100% {transform: scale(1);}
 }
 
 
@@ -58,6 +66,7 @@ footer {
     background: #eee;
     text-align: center;
     padding: 15px 0 0;
+    margin-top: 50px;
 }
 footer .heart {
     display: inline-block;

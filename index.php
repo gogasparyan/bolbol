@@ -28,7 +28,7 @@ header('Location: http://mobile.bolbol.am');
 </head>
 <body>
     <div class="background">
-<!--        <img src="" alt="">-->
+        <div class="koko"></div>
     </div>
     <header></header>
     <main></main>
