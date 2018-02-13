@@ -27,8 +27,8 @@ if (isset($_POST['login']) && isset($_POST['password'])) {
         <style>
             body {
                 position: fixed;
-                top: 47%;
-                left: 55%;
+                top: 50%;
+                left: 50%;
                 margin-right: -50%;
                 transform: translate(-50%, -50%)
             }
