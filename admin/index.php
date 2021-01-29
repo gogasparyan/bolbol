@@ -37,14 +37,15 @@ if (isset($_POST['logout'])) {
             background-color: #f34235;
             padding: 7px 14px;
             animation: animateLogout 2s infinite;
+						cursor: pointer;
         }
-        @keyframes animateLogout {
-            0% { -webkit-transform: scale(1); transform: scale(1); }
-            5% { -webkit-transform: scale(1.2); transform: scale(1.2); }
-            10% { -webkit-transform: scale(1.1); transform: scale(1.1); }
-            15% { -webkit-transform: scale(1.3); transform: scale(1.3); }
-            50% { -webkit-transform: scale(1); transform: scale(1); }
-            100% { -webkit-transform: scale(1); transform: scale(1); }}
+/*        @keyframes animateLogout {*/
+/*            0% { -webkit-transform: scale(1); transform: scale(1); }*/
+/*            5% { -webkit-transform: scale(1.2); transform: scale(1.2); }*/
+/*            10% { -webkit-transform: scale(1.1); transform: scale(1.1); }*/
+/*            15% { -webkit-transform: scale(1.3); transform: scale(1.3); }*/
+/*            50% { -webkit-transform: scale(1); transform: scale(1); }*/
+/*            100% { -webkit-transform: scale(1); transform: scale(1); }}*/
     </style>
 </head>
 <body>

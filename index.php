@@ -10,45 +10,50 @@ header('Location: http://mobile.bolbol.am');
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>bolbol.am</title>
-    <link rel="stylesheet" href="css/main.css">
+	<meta charset="UTF-8">
+	<title>bolbol.am</title>
+	<link rel="stylesheet" href="assets/icons/icofont/icofont.min.css">
+	<link rel="stylesheet" href="assets/css/main.css">
 
-    <script type="text/javascript" src="/js/main.js"></script>
+	<script type="text/javascript" src="/js/main.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 
-    <script>
-        $(document).ready(function () {
+	<script>
+		$(document).ready(function() {
 
-        });
-    </script>
+		});
+	</script>
 
 </head>
+
 <body>
-    <div class="background">
-        <div class="koko"></div>
-    </div>
-    <header></header>
-    <main></main>
-    <footer>
-        <div class="text">Made with <span class="heart"></span></div>
-        <p>&copy;2017 bolbol.am</p>
-    </footer>
+	<header>
+		<nav>
+			<div id="nav_logo"><a href="#">bolbol</a></div>
+			<div id="search">
+				<form action="/category">
+					<i class="icofont-search"></i>
+					<input class="search-input" type="text" placeholder="Որոնել">
+					<i class="icofont-close-line"></i>
+				</form>
+			</div>
+			<div id="signin"><button><i class="icofont-login"></i>Մուտք</button></div>
+			<div id="signup"><button>test</button></div>
+		</nav>
+	</header>
+	<main></main>
+<!--
+	<footer>
+		<div class="text">Made with <span class="heart"></span></div>
+		<p>&copy;2017 bolbol.am</p>
+	</footer>
+-->
 </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
