@@ -41,7 +41,7 @@ header('Location: http://mobile.bolbol.am');
 				</form>
 			</div>
 			<div id="signin"><button><i class="icofont-login"></i>Մուտք</button></div>
-			<div id="signup"><button>test</button></div>
+			<div id="signup"><button>Գրանցվել</button></div>
 		</nav>
 	</header>
 	<main></main>
